@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uvg.Intent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Intent-Calculadora-Pedro-Arriola-20188"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Intel">
+        <activity android:name="com.uvg.Intent.MainActivity5"></activity>
+        <activity android:name="com.uvg.Intent.MainActivity4" />
+        <activity android:name="com.uvg.Intent.MainActivity3" />
+        <activity android:name="com.uvg.Intent.MainActivity2" />
+        <activity android:name="com.uvg.Intent.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
